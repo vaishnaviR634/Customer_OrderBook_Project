@@ -1,9 +1,7 @@
 **Description:**
 
 The OrderBook Management System is a command-line application designed to manage a database of customer orders. 
-
 The users need to login and can access their respective database files.
-
 It allows users to add new orders, print existing orders, clear the database, and exit the application.
 
 
@@ -38,26 +36,20 @@ make
 
 **Functionalities:**
 
-Add Entry:
-
+**Add Entry:**
 Users can add a new order by providing Customer ID, Name, Order description, and Quantity. The order is serialized and stored in the database file.
 
-Print OrderBook:
-
+**Print OrderBook:**
 Displays all existing orders stored in the database. 
 
-Clear OrderBook:
-
+**Clear OrderBook:**
 Deletes all orders from the database, freeing up memory and resetting the database file.
 
-Authentication:
-
+**Authentication:**
 Users are prompted to enter a username and password at the start of the application. 
-
 The credentials are verified against entries in the passwords.txt file for access to the OrderBook.
 
-Error Handling:
-
+**Error Handling:**
 The application handles errors such as file reading/writing issues, command input validation, and memory allocation failures.
 
 
